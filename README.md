@@ -1,8 +1,7 @@
 <h2 align="center">Node 模板</h2>
 
 
-### 目标
-
+通过Typescript可以有效的对代码进行类型校验，特别是后端项目，以下是需要实现的目标：
 - 在typescript基础上构建 node 项目
 - 利用eslint对node项目进行代码规范
 
