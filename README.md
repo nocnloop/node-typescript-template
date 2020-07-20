@@ -12,6 +12,7 @@
 之前node项目直接安装[nodemon](https://github.com/remy/nodemon)就可以实时监听项目文件变化然后重新启动项目，现在还有一款插件也可以达到同样效果，[ts-node-dev](https://github.com/whitecolor/ts-node-dev)能够帮助我们监听ts项目，同时会将项目编译成原生js文件
 
 ```shell
+yarn add @types/node --dev
 yarn add ts-node-dev --dev
 ```
 
