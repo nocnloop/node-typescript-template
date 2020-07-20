@@ -18,7 +18,6 @@ import http from 'http'
 //   console.log('listening')
 // })
 
-
 const server = http.createServer((req, res) => {
   req.on('data', (chunk) => {
     console.log(chunk)
@@ -35,7 +34,4 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
   'port is 3000'
 })
-
-
-
 
