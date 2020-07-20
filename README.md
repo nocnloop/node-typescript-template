@@ -1,5 +1,4 @@
-<center style="font-size:20px;font-weight:700">Node模板</center>
-
+<h2 align="center">Node 模板</h2>
 
 
 ### 目标
