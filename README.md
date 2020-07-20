@@ -33,9 +33,10 @@ yarn run dev
 
 不赘述，[How to use ESLint with TypeScript](https://khalilstemmler.com/blogs/typescript/eslint-for-typescript)
 
-需要注意的是typescript-eslint和eslint是一脉相承的，typescript-eslint是在eslint基础上构建的，对于一些eslint规则在ts项目中无效果的，可以参考一下配置
+需要注意的是typescript-eslint和eslint是一脉相承的，typescript-eslint是在eslint基础上构建的，对于一些eslint规则在ts项目中无效果的，可以参考一下配置。例如indent配置在typescript项目中存在问题，clas类下每行首位的空格并没有遵循配置，加上ts与indent结合的配置就可以了
 
 ```shell
+indent: [2, 2],
 "@typescript-eslint/indent": ["error", 2],
 ```
 
