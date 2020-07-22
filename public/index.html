@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let ws = new WebSocket("ws://127.0.0.1:8888");
+
+      ws.onopen = (event) => {
+        console.log("onopen...");
+        ws.send("Hello Server!");
+      };
+
+      ws.onmessage = (event) => {
+        console.log(event.data);
+      };
+    </script>
+  </body>
+</html>
